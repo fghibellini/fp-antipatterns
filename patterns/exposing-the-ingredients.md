@@ -39,12 +39,12 @@ someOperation = do
 ```purescript
 module X  (mapToInvalidBody, mapToDuplicateInSubmission) where
 
-mapToInvalidBody :: forall r. Either e a -> Either { invalidBody: e | r }
+mapToInvalidBody :: forall r. Either e a -> Either { invalidBody: e | r } a
 mapToInvalidBody = errorsAs _invalidBody <<< except
   where
     _invalidBody :: SProxy "invalidBody"
 
-mapToDuplicateInSubmission :: forall r. Either e a -> Either { dupDuplicateInSubmission: e | r }
+mapToDuplicateInSubmission :: forall r. Either e a -> Either { dupDuplicateInSubmission: e | r } a
 mapToDuplicateInSubmission = errorsAs _dupDuplicateInSubmission <<< except
   where
     _duplicateInSubmission :: SProxy "duplicatesInSubmission"
@@ -65,3 +65,4 @@ errorsAs = withExceptT <<< inj
 someOperation = do
    mapToInvalidBody someFn
 ```
+
