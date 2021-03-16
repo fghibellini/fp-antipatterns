@@ -6,4 +6,5 @@ All made by people who already knew how to write Haskell.
 
 1. [Noop Inputs](./patterns/noop-inputs.md)
 2. [Maybe-Encoded States](./patterns/maybe-encoded-states.md)
+3. [Exposing the Ingredients](./patterns/exposing-the-ingredients.md)
 
