@@ -10,7 +10,8 @@ Before this point the value is never present and afterwards the value is always 
 
 ### Motivation
 
-As the code grows fewer and fewer people will be able to keep track of which values are populated in specific sections of the code.
+1. As the code grows fewer and fewer people will be able to keep track of which values are populated in specific sections of the code.
+2. The incorrect encoding allows for a lot of invalid states (incorrect combinations of `Maybe`/`Just _` values)
 
 ### Common occurences:
 
