@@ -4,7 +4,7 @@
 ### Description
 
 Typically you'll have two separate section of code separated by the enrichement step.
-Before it the value is never present and after it the value is always present. The types should reflect this.
+Before this point the value is never present and afterwards the value is always present. The types should reflect this.
 
 **TODO** Elaborate on the case where the enrichment result is a Maybe (for beginners).
 
