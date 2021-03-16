@@ -75,11 +75,11 @@ As the order moves through the processing steps it accumulates information about
 ```haskell
 data Order
   = Order
-  // STATE 1 - OrderCreated
+  -- STATE 1 - OrderCreated
   { _id :: UUID
-  // STATE 2 - OrderShipped
+  -- STATE 2 - OrderShipped
   , _trackingNr :: Maybe Text
-  // STATE 3 - OrderDelivered
+  -- STATE 3 - OrderDelivered
   , _deliveredOn :: Maybe UTCTime
   }
 ```
