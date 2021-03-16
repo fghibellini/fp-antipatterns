@@ -100,7 +100,7 @@ data ShippedOrder
   , _trackingNr :: Maybe Text
   }
 
-data DelivereddOrder
+data DeliveredOrder
   = DeliveredOrder
   { _id :: UUID
   , _trackingNr :: Maybe Text
