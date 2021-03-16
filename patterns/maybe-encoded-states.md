@@ -100,8 +100,8 @@ data ShippedOrder
   , _trackingNr :: Maybe Text
   }
 
-data ShippedOrder
-  = ShippedOrder
+data DelivereddOrder
+  = DeliveredOrder
   { _id :: UUID
   , _trackingNr :: Maybe Text
   , _deliveredOn :: Maybe UTCTime
