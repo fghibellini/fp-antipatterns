@@ -9,6 +9,7 @@ Functions should accept the smallest set of possible values possible to fulfill 
 ### Common occurences
 
 - Any parsing-like step followed by a processing step
+- any operation where an intermediary step yields a Maybe-like type
 
 ### Exceptions
 
