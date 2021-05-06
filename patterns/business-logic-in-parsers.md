@@ -10,7 +10,7 @@ The worst offenders are cases where multiple records in the response are grouped
 
 ## DO
 
-Ideally you want to have different types for the data before and after the transformation
+Ideally you want to have different types for the data before and after the transformation (here languages with nominal types really shine).
 
 ## Why?
 
