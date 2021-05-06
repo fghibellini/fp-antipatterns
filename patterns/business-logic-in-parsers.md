@@ -14,7 +14,7 @@ Ideally you want to have different types for the data before and after the trans
 
 ## Why?
 
-people debugging issues will not look into the parsers. They will spend a lot of time trying to understand how something can happen given their expectation of the data coming from the DB.
+people debugging issues will not look into the parsers (after all in some language the parsers are even generated automatically - so there are strong expectations of what they do). They will spend a lot of time trying to understand how something can happen given their expectation of the data coming from the DB.
 
 ## Examples
 
